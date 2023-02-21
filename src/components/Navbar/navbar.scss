@@ -1,0 +1,54 @@
+ul {
+    border-bottom: solid 1px gray;
+    background: #0E0E0E;
+    margin-bottom: 10px;
+}
+
+li {
+    display: flex;
+}
+
+.container {
+    position: relative;
+}
+
+.content {
+    display: none;
+    z-index: 1;
+}
+
+.container:hover .content {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 12px;
+}
+
+.shop:hover .content {
+    display: flex;
+    width: 30%;
+}
+
+.shop {
+    background-color: greenyellow;
+}
+
+img {
+    float: left;
+    width:  150px;
+    height: 150px;
+    object-fit: cover;
+    padding-right: 10px;
+}
+
+.content {
+    :hover {
+        background-color: antiquewhite;
+        color: black;
+    }
+}
+
