@@ -29,7 +29,7 @@ export default function SignUpForm() {
             if (err == "auth/email-already-in-use") {
                 alert("Email already in use.");
             } else {
-                console.log(err);
+                console.error(err);
             }
         }
     }
