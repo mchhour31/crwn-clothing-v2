@@ -12,7 +12,7 @@ export default function SignIn() {
 
     return (
         <div>
-            <button onClick={googleAuthSignIn}>sign in with google auth</button>
+            {/* <button onClick={googleAuthSignIn}>sign in with google auth</button> */}
             <SignUpForm />
         </div>
     )
